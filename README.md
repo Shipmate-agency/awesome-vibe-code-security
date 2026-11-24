@@ -1,8 +1,18 @@
+<p align="center">
+  <a href="https://shipmate.agency">
+    <img src="./assets/banner.png" alt="Awesome Vibe-Code & AI Web App Security — curated by Shipmate (shipmate.agency)" width="840" />
+  </a>
+</p>
+
 # Awesome Vibe-Code & AI Web App Security [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated, practical list of security tools, checklists, templates, hardening guides, and research for web apps built fast with **Cursor, Lovable, Bolt, v0, Replit, Next.js, Supabase, Postgres, Stripe, and LLM APIs**.
+[![Shipmate](https://img.shields.io/badge/Maintained_by-Shipmate-1E57A8?style=flat-square)](https://shipmate.agency)
+[![Free Check](https://img.shields.io/badge/Free_Site_Check-$0-11141C?style=flat-square)](https://shipmate.agency/check)
+[![License: MIT](https://img.shields.io/badge/License-MIT-11141C?style=flat-square)](./LICENSE)
 
-Maintained by **[Shipmate](https://shipmate.agency)**. PRs adding genuinely useful, open, vendor-neutral security resources are welcome (see [CONTRIBUTING.md](./CONTRIBUTING.md)).
+A curated, vendor-neutral directory of open-source security scanners, IDE guardrails, SQL audits, compliance templates, and hardening guides for web apps built fast with **Cursor, Lovable, Bolt, v0, Replit, Next.js, Supabase, Postgres, Stripe, and LLM APIs**.
+
+Maintained by **[Shipmate](https://shipmate.agency)** (`hello@shipmate.agency`). PRs adding genuinely useful, open security resources are welcome — see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Contents
 - [Pre-Launch Scanners & MCP Tools](#pre-launch-scanners--mcp-tools)
@@ -18,7 +28,7 @@ Maintained by **[Shipmate](https://shipmate.agency)**. PRs adding genuinely usef
 ---
 
 ## Pre-Launch Scanners & MCP Tools
-- [ShipReady](https://github.com/Shipmate-agency/shipready) — Zero-dependency CLI & GitHub Action checking Supabase RLS, exposed secrets, Stripe webhooks, and headers.
+- [ShipReady](https://github.com/Shipmate-agency/shipready) — Zero-dependency CLI & GitHub Action checking Supabase RLS, exposed secrets, Stripe webhooks, and security headers.
 - [ShipReady MCP](https://github.com/Shipmate-agency/shipready-mcp) — Local stdio MCP server bringing pre-launch security checks into Cursor, Claude Code, and Windsurf.
 - [Semgrep](https://github.com/semgrep/semgrep) — Fast static analysis with strong JS/TS/React/Python security rulesets.
 - [Gitleaks](https://github.com/gitleaks/gitleaks) — Secret scanner for Git repos, pre-commit hooks, and CI pipelines.
@@ -28,7 +38,7 @@ Maintained by **[Shipmate](https://shipmate.agency)**. PRs adding genuinely usef
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) — Open-source web application dynamic security scanner (DAST).
 
 ## IDE Guardrails (Cursor, Claude Code, Copilot)
-- [ShipReady `.cursorrules` & `CLAUDE.security.md`](https://github.com/Shipmate-agency/shipready-mcp) — Drop-in security invariants enforcing RLS, verified Stripe webhooks, Server Action auth, and AI token caps.
+- [ShipReady `.cursorrules` & `rules/*.mdc`](https://github.com/Shipmate-agency/shipready-mcp) — Drop-in security invariants enforcing RLS, verified Stripe webhooks, Server Action auth, and AI token caps.
 - [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — Community directory of `.cursorrules` files across frameworks.
 - [OWASP Secure Coding Practices Quick Reference](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/) — Language-agnostic secure defaults checklist.
 
@@ -77,5 +87,4 @@ Maintained by **[Shipmate](https://shipmate.agency)**. PRs adding genuinely usef
 
 ---
 
-## Contributing
-Have an open-source tool, real hardening guide, or framework security checklist? Open a PR following [CONTRIBUTING.md](./CONTRIBUTING.md).
+Part of **[Shipmate Open Source](https://github.com/Shipmate-agency)** · [shipmate.agency](https://shipmate.agency)
