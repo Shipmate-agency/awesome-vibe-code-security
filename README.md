@@ -34,6 +34,7 @@ Maintained by **[Shipmate](https://shipmate.agency)** (`hello@shipmate.agency`),
 - [Nuclei](https://github.com/projectdiscovery/nuclei) - Template-based vulnerability scanner for authorized staging/production testing.
 - [ZAP](https://github.com/zaproxy/zaproxy) - Open-source dynamic web application scanner (DAST), formerly OWASP ZAP.
 - [Snyk Agent Scan](https://github.com/snyk/agent-scan) - Scans installed MCP servers and agent skills for prompt injection and tool poisoning risks (formerly Invariant Labs' mcp-scan; sends tool descriptions to a remote analysis API).
+- [AI-built app security checklist](https://github.com/proofforge-live/ai-built-app-security-checklist) - Plain-English, CC0 pre-launch checklist for apps built with Lovable, Bolt, Replit and Cursor: secrets, RLS, API routes, webhooks, CORS. From ProofForge, which also runs a free outside scan of live URLs.
 - [ShipReady](https://github.com/Shipmate-agency/shipready) - Zero-dependency CLI & GitHub Action checking Supabase RLS, exposed secrets, Stripe webhooks, and security headers (Shipmate).
 - [ShipReady MCP](https://github.com/Shipmate-agency/shipready-mcp) - Local stdio MCP server bringing pre-launch security checks into Cursor, Claude Code, and Windsurf (Shipmate).
 
